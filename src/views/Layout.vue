@@ -147,9 +147,7 @@ const handleCommand = (command) => {
             </el-header>
             <!-- 中间区域 -->
             <el-main>
-                <!-- <div style="width: 1290px; height: 570px;border: 1px solid red;">
-                    内容展示区
-                </div> -->
+               <!-- 实现子视图组件展示 -->
                 <router-view></router-view>
             </el-main>
             <!-- 底部区域 -->
